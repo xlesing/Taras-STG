@@ -1,0 +1,19 @@
+package com.company;
+        import java.util.Scanner;
+
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner num = new Scanner(System.in);
+        System.out.println("Enter your first number: ");
+        int A = num.nextInt();
+        System.out.println("Enter your second number: ");
+        int B = num.nextInt();
+        int newA, new0 = 0;
+        if (A != B){
+            newA = A + B;
+            System.out.println("A = " + newA +",B = " + newA);
+        } else
+            System.out.println("A = " + new0 +",B = " + new0);
+    }
+}
